@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="portfolio2.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!---------------------   navbar start  --------------------------->
+    <nav class="h-[50px] w-full flex items-center justify-between">
+        <div class="h-[40px] w-[100px] flex items-center justify-center">
+            <p class="text-xl font-serif font-bold">Portfolio</p>
+        </div>
+
+        <div id="sidebar" class="h-[100vh] w-[100vw]">
+            <div id="hidebar-box" class="h-[50px] w-full flex items-center justify-end px-[20px]">
+                <i id="hidebar" class="fa-solid fa-xmark text-2xl cursor-pointer"></i>
+            </div>
+
+            <div id="side-links" class="h-[200px] w-full flex flex-col items-start justify-evenly scroll-smooth px-[20px]">
+                <a href="#hero" class="px-[10px] text-lg font-serif hover:underline">Home</a>
+                <a href="#about" class="px-[10px] text-lg font-serif hover:underline">About</a>
+                <a href="#skill-div" class="px-[10px] text-lg font-serif hover:underline">Skill</a>
+                <a href="#project" class="px-[10px] text-lg font-serif hover:underline">Project</a>
+                <a href="#contact" class="px-[10px] text-lg font-serif hover:underline">Contact</a>
+            </div>
+        </div>
+
+        <div id="nav-links" class="h-[35px] w-[500px] flex items-center justify-evenly scroll-smooth">
+            <a href="#hero" class="px-[10px] text-lg font-serif hover:underline">Home</a>
+            <a href="#about" class="px-[10px] text-lg font-serif hover:underline">About</a>
+            <a href="#skill-div" class="px-[10px] text-lg font-serif hover:underline">Skill</a>
+            <a href="#project" class="px-[10px] text-lg font-serif hover:underline">Project</a>
+            <a href="#contact" class="px-[10px] text-lg font-serif hover:underline">Contact</a>
+        </div>
+
+        <div id="showbar-box" class="h-[35px] w-[40px]">
+            <i id="showbar" class="fa-solid fa-bars text-lg cursor-pointer"></i>
+        </div>
+    </nav>
+    <!---------------------   navbar end  --------------------------->
+
+    <!---------------------   home start  --------------------------->
+    <div id="hero" class="h-[600px] w-full flex">
+       <div id="hero-content" class="h-full w-[50%] flex items-center justify-center">
+            <div id="hero-content-box" class="h-[60%] w-[85%] pl-[30px] flex flex-col items-start">
+                <div id="name">
+                    <p class="text-4xl font-mono font-bold text-white">Hello I'm</p>
+                    <h1 class="text-4xl font-serif font-semibold">Rishabh Kumar Yadav</h1>
+                </div>
+    
+                <div id="job">
+                    <p class="text-3xl font-mono font-bold text-white">I'm a</p>
+                    <h1 class="text-4xl font-serif font-semibold">Frontend Developer</h1>
+                </div>
+    
+                <div id="hero-box-para" class="w-[85%] mt-[5px]">
+                    <p class="text-xl font-medium text-white">
+                        Hi, I'm Rishabh! I'm on a journey to become a skilled Frontend Developer.
+                        I have a passion for building beautiful and responsive websites using modern technologies.
+                    </p>
+                </div>
+    
+                <div class="h-[40px] w-[95%] mt-[5px] flex items-center">
+                    <a href="https://github.com/codevibewith-rishi" id="capsule" class="h-[30px] w-[110px] flex items-center justify-evenly">
+                        <p class="text-lg font-serif font-semibold">Github</p>
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="hero-img" class="h-full w-[50%]">
+            <img src="Rishabh.png" alt="Rishabh">
+        </div>
+    </div>
+    <!---------------------   home end  --------------------------->
+
+    <!---------------------   about start  --------------------------->
+    <div id="about" class="h-[600px] w-full">
+        <div id="about-heading">
+            <p>About me & Future-goal</p>
+        </div>
+
+        <div id="about-container">
+            <div id="about-box" class="h-[350px] w-[400px]">
+                <h1>About us</h1>
+                <p>
+                    I am passionate web development and continuously learning to improve my skills. Currently, I am focused on mastering JavaScript and React to create dynamic, user-friendly websites.
+                </p>
+            </div>
+
+            <div id="future-goal" class="h-[350px] w-[400px]">
+                <h1>Future-goal</h1>
+                <p>
+                    Become proficient in React Work on real-world projects to enhance my skills Build a portfolio showcasing all projects
+                    Contribute to open-source projects.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!---------------------   about end  --------------------------->
+
+    <!---------------------   skill start  --------------------------->
+    <div id="skill-div">
+        <div id="skill">
+            <div id="skill-heading">
+                <h1 class="text-3xl font-serif font-bold text-white">Skill</h1>
+            </div>
+    
+            <div id="skill-container">
+                <div id="skill-container1">
+                    <h1>Frontend Developer</h1>
+                    <div>
+                        <span class="capsule">
+                            <img src="html.png" alt="html">
+                            <p>Html</p>
+                        </span>
+                        <span class="capsule">
+                            <img src="css.png" alt="css">
+                            <p>CSS</p>
+                        </span>
+                        <span class="capsule">
+                            <img src="js.webp" alt="js">
+                            <p>Javascript</p>
+                        </span>
+                        <span class="capsule">
+                            <img src="tailwind.png" alt="tailwind">
+                            <p>Tailwindcss</p>
+                        </span>
+                    </div>
+                </div>
+    
+                <div id="skill-container2">
+                    <h1>Others</h1>
+                    <div>
+                        <span class="capsule">
+                            <img src="git.webp" alt="git">
+                            <p>Git</p>
+                        </span>
+                        <span class="capsule">
+                            <img src="github.png" alt="github">
+                            <p>Github</p>
+                        </span>
+                        <span class="capsule">
+                            <img src="vs.webp" alt="vs">
+                            <p>Vscode</p>
+                        </span>
+                        <span class="capsule">
+                            <img src="netlify.png" alt="netlify">
+                            <p>Netlify</p>
+                        </span>
+                        <span class="capsule">
+                            <img src="vercel.png" alt="vercel">
+                            <p>Vercel</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <!---------------------   skill end  --------------------------->
+
+    <!---------------------   project start  --------------------------->
+    <div id="project">
+        <div id="project-heading1">
+            <h1 class="text-2xl font-serif font-bold text-black">
+                Project
+            </h1>
+        </div>
+
+        <div id="project-heading2">
+            <h1 class="text-2xl font-serif font-bold text-black">
+                Responsive UI Clone based Web Pages 
+            </h1>
+        </div>
+
+        <div id="project-container">
+            <div id="project-1">
+                <div>
+                    <h1>Zomato</h1>
+                    <a href="https://zomatoclone-8n4h.vercel.app/" target="_blank">Visit it</a>
+                </div>
+            </div>
+
+            <div id="project-2">
+                <div>
+                    <h1>Zerodha</h1>
+                    <a href="https://zerodhaclone-tau.vercel.app" target="_blank">Visit it</a>
+                </div>
+            </div>
+
+            <div id="project-3"></div>
+        </div>
+    </div>
+    <!---------------------   project end  --------------------------->
+
+    <!---------------------   contact start  --------------------------->
+    <div id="contact">
+        <h1>Contact us</h1>
+
+        <div id="contact-container">
+            <form action="submit" method="post">
+                <input type="text" placeholder="Your Name" required>
+
+                <input type="text" placeholder="Your Email" required>
+
+                <textarea placeholder="Enter Message" rows="4" required></textarea>
+
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+    <!---------------------   contact end  --------------------------->
+
+    <!---------------------   footer start  --------------------------->
+    <footer>
+        <h1>Rishabh Kumar Yadav</h1>
+
+        <div id="icon">
+            <div id="icon-links">
+                <a href="https://www.facebook.com/codebyrishabh"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/codebyrishabh/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/codebyrishabh/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/codevibewith-rishi"><i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com/codebyrishabh"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://in.pinterest.com/codebyrishabh/"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="portfolio2.js"></script>
+</body>
+</html>
