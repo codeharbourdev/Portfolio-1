@@ -27,7 +27,7 @@ nav {
     /*background-color: #774936;*/
     background: linear-gradient(to right, blue,white);
     color: white;
-    padding-left: 100px;
+    padding-left: 50px;
     padding-right: 50px;
 }
 
@@ -45,8 +45,8 @@ nav {
     }
 
     nav {
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
 
     }
 
@@ -64,6 +64,8 @@ nav {
     top: 0;
     right: 0;
     z-index: 10;
+    height: 100vh;
+    width: 100%;
     color: black;
     background-color: rgba(255, 255, 255, 0.516);
     backdrop-filter: blur(10px);
@@ -479,10 +481,10 @@ nav {
     justify-content: space-evenly;
 }
 
-.capsule {
+#skill-container1 .capsule {
     height: 40px;
-    width: 130px;
-    border: 2px solid gray;
+    width: 160px;
+    border: 2px solid blue;
     box-shadow: 0px 0px 5px black;
     border-radius: 10px;
     display: flex;
@@ -490,12 +492,12 @@ nav {
     justify-content: space-evenly;
 }
 
-.capsule img {
+#skill-container1.capsule img {
     height: 25px;
     width: 25px;
 }
 
-.capsule p {
+#skill-container1.capsule p {
     font-size: 16px;
     font-weight: 700;
     font-family: serif;
@@ -542,8 +544,8 @@ nav {
 
 .capsule {
     height: 40px;
-    width: 130px;
-    border: 2px solid gray;
+    width: 150px;
+    border: 2px solid blue;
     box-shadow: 0px 0px 5px black;
     border-radius: 10px;
     display: flex;
