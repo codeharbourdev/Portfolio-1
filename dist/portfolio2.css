@@ -27,8 +27,8 @@ nav {
     /*background-color: #774936;*/
     background: linear-gradient(to right, blue,white);
     color: white;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 100px;
+    padding-right: 50px;
 }
 
 #nav-links a {
@@ -198,7 +198,6 @@ nav {
 
 #hero-content-box h1 {
     color: black;
-    filter: drop-shadow(0px 0px 1px white);
 }
 
 /**************************  hero - img  *********************/
@@ -236,7 +235,7 @@ nav {
     }
 }
 
-/**********************  about  ********************/
+/**********************  about  section    ********************/
 #about {
     display: flex;
     flex-direction: column;
@@ -250,6 +249,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #about-heading p {
@@ -312,7 +313,7 @@ nav {
     }
 
     #about-heading p {
-        font-size: 25px;
+        font-size: 18px;
     }
 }
 
@@ -337,6 +338,12 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#about-box::-webkit-scrollbar {
+    width: 10px;
 }
 
 #about-box h1 {
@@ -359,6 +366,12 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#future-goal::-webkit-scrollbar {
+    width: 10px;
 }
 
 #future-goal h1 {
@@ -691,7 +704,7 @@ nav {
 }
 
 #project-1 div h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-family: serif;
     font-weight: 800;
 }
@@ -701,7 +714,7 @@ nav {
 }
 
 #project-1 div a {
-    padding: 5px 20px;
+    padding: 2px 15px;
     border: 2px solid blue;
     border-radius: 10px;
     box-shadow: 0px 0px 10px blue;
@@ -750,7 +763,7 @@ nav {
 }
 
 #project-2 div h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-family: serif;
     font-weight: 800;
 }
@@ -760,7 +773,7 @@ nav {
 }
 
 #project-2 div a {
-    padding: 5px 20px;
+    padding: 2px 15px;
     border: 2px solid blue;
     border-radius: 10px;
     box-shadow: 0px 0px 10px blue;
