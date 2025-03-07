@@ -1,5 +1,6 @@
 body {
-    background-color: #cd9777;
+    /*background-color: #cd9777;*/
+    background: linear-gradient(to right, white, blue);
 }
 
 body::-webkit-scrollbar {
@@ -23,10 +24,15 @@ body::-webkit-scrollbar-thumb {
 nav {
     position: fixed;
     top: 0;
-    background-color: #774936;
+    /*background-color: #774936;*/
+    background: linear-gradient(to right, blue,white);
     color: white;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+#nav-links a {
+    color: black;
 }
 
 #showbar-box {
@@ -66,7 +72,8 @@ nav {
 
 /*********************  home section  **********************/
 #hero {
-    background-color: #774936;
+   /* background-color: #774936;*/
+    background: linear-gradient(to right, blue,white);
     margin-top: 50px;
 }
 
@@ -189,22 +196,9 @@ nav {
     border-radius: 50%;
 }
 
-/************************* capsule 2 **********************/
-
-#capsule2 {
-    border: 2px solid blue;
-    box-shadow: 0px 0px 5px blue;
-    border-radius: 20px;
-    color: white;
-}
-
-#capsule2:hover {
-    background-color: blue;
-    color: white;
-}
-
 #hero-content-box h1 {
-    color: yellow;
+    color: black;
+    filter: drop-shadow(0px 0px 1px white);
 }
 
 /**************************  hero - img  *********************/
@@ -219,7 +213,7 @@ nav {
     height: 400px;
     width: 400px;
     border: 5px solid blue;
-    box-shadow: 0px 0px 50px white;
+    box-shadow: 0px 0px 50px blue;
     border-radius: 50%;
 }
 
@@ -325,13 +319,13 @@ nav {
 #about-container div {
     border: 2px solid blue;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px blue;
+    box-shadow: inset 0px 0px 10px blue;
     cursor: pointer;
     transition: background-color 1s 4ms;
 }
 
 #about-container div:hover {
-    background-color: #774936;
+    background-color: blue;
     color: white;
 }
 
@@ -401,7 +395,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #774936;
+    /*background-color: #774936;*/
+    background: linear-gradient(to right, blue, white);
 }
 
 #skill {
@@ -507,13 +502,13 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    color: white;
+    color: black;
 }
 
 #skill-container2:hover {
     background-color: #cd9777;
     cursor: pointer;
-    color: black;
+    color: white;
 }
 
 #skill-container2 h1 {
@@ -857,7 +852,8 @@ nav {
 #contact {
     height: 650px;
     width: 100%;
-    background-color: #774936;
+    /*background-color: #774936;*/
+    background: linear-gradient(to right, blue, white);
     margin-top: 30px;
     display: flex;
     flex-direction: column;
@@ -907,7 +903,7 @@ form {
     height: 50px;
     width: 100%;
     outline: none;
-    border: 2px solid gray;
+    border: 2px solid blue;
     border-radius: 10px;
     padding: 0 15px;
     font-size: 20px;
@@ -916,11 +912,16 @@ form {
     box-shadow: 0px 0px 2px white;
 }
 
+#contact-container input::placeholder {
+    color: black;
+}
+
 #contact-container textarea {
     height: 200px;
     width: 100%;
     outline: none;
-    border: 2px solid gray;
+    resize: none;
+    border: 2px solid blue;
     border-radius: 10px;
     padding: 5px 15px;
     font-size: 20px;
@@ -929,10 +930,14 @@ form {
     box-shadow: 0px 0px 2px white;
 }
 
+#contact-container textarea::placeholder {
+    color: black;
+}
+
 #contact-container button {
     height: 50px;
     width: 100%;
-    background-color: pink;
+    background: linear-gradient(to right, blue, white);
     border-radius: 10px;
     border: 2px solid blue;
     cursor: pointer;
@@ -943,7 +948,7 @@ form {
 }
 
 #contact-container button:hover {
-    background-color: #774936;
+    background: linear-gradient(to right, white, blue);    
     color: white;
     box-shadow: 0px 0px 10px blue;
 }
@@ -984,7 +989,7 @@ footer h1:hover {
 
 #icon-links {
     height: 40px;
-    width: 350px;
+    width: 400px;
     margin: auto;
     display: flex;
     align-items: center;
